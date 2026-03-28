@@ -1,0 +1,5 @@
+{
+  "name": "Quantum Visual Simulator",
+  "description": "An interactive system to visualize qubit evolution using Bloch sphere, quantum gates, and real-time probability updates.",
+  "requestFramePermissions": []
+}
