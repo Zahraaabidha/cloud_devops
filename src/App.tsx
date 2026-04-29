@@ -141,7 +141,7 @@ function HomePage({ onNavigate }: { onNavigate: () => void }) {
           className="flex flex-col items-start max-w-xl"
         >
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-sans font-black tracking-tighter uppercase leading-[0.85] text-primary drop-shadow-[0_0_30px_rgba(255,140,42,0.3)]">
-            QUANTUM COMPUTING <br />VISUAL<br />SIMULATOR
+            QUANTUM is working  <br />VISUAL<br />SIMULATOR
           </h1>
           <p className="text-sm font-light leading-relaxed tracking-wide text-text/70 mt-8 max-w-sm">
             An interactive system to visualize qubit evolution using Bloch sphere, quantum gates, and real-time probability updates.
