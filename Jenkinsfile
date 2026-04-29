@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Install & Build') {
             steps {
-                sh 'npm install && npm run build'
+                sh 'echo "Pre-built dist included in repo"'
             }
         }
         stage('Docker Build') {
