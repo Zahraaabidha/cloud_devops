@@ -8,4 +8,4 @@ git commit -m "Deploy %date% %time%"
 git push origin main
 echo.
 echo Done! Jenkins will deploy automatically in 2 minutes.
-echo Check: http://100.51.214.55:8080
+echo Check: http://3.231.186.111:8080

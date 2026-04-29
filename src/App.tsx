@@ -158,7 +158,7 @@ function HomePage({ onNavigate }: { onNavigate: () => void }) {
           >
             <div className="p-0">
               <h3 className="text-[11px] tracking-[0.3em] font-mono uppercase text-primary mb-4 font-black">
-                TECHNICAL SPECS
+                TECHNICAL''''' SPECS
               </h3>
               <div className="space-y-0">
                 <SpecRow label="Core" value="Qubit State Engine (α, β complex amplitudes)" onClick={onNavigate} />
