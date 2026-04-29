@@ -83,7 +83,7 @@ function AppContent() {
               onClick={() => setCurrentPage("about")}
               className={`transition-all hover:text-primary relative group ${currentPage === "about" ? "text-primary text-glow-orange" : "text-text/80"}`}
             >
-              ABOUTTTTTTTTTTTTTT PLS WORK
+              ABOUT
             </button>
           </div>
         </div>
@@ -161,7 +161,7 @@ function HomePage({ onNavigate }: { onNavigate: () => void }) {
                 TECHNICAL SPECS
               </h3>
               <div className="space-y-0">
-                <SpecRow label="CoreEEEEEEEEEEEEEEEEEEE" value="Qubit State Engine (α, β complex amplitudes)" onClick={onNavigate} />
+                <SpecRow label="Core" value="Qubit State Engine (α, β complex amplitudes)" onClick={onNavigate} />
                 <SpecRow label="Visualization" value="Bloch Sphere (Three.js)" onClick={onNavigate} />
                 <SpecRow label="Logic" value="Quantum Gates (X, H, Z)" onClick={onNavigate} />
                 <SpecRow label="Output" value="Probability & Measurement" onClick={onNavigate} />
