@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Install & Build') {
             steps {
-                sh 'echo "Build handled in Docker"'
+                sh 'npm install && npm run build'
             }
         }
         stage('Docker Build') {
@@ -33,7 +33,7 @@ pipeline {
         }
     }
     post {
-        success { echo 'Quantum Simulator is live on AWS EC2!' }
-        failure { echo 'Build failed. Check logs.' }
+        success { echo 'Quantum Simulator is live!' }
+        failure { echo 'Build failed.' }
     }
 }
