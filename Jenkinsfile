@@ -8,7 +8,7 @@ pipeline {
         stage('Clone') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/<yourname>/quantum-visual-simulator'
+                    url: url: 'https://github.com/Zahraaabidha/cloud_devops.git'
             }
         }
         stage('Install & Build') {
