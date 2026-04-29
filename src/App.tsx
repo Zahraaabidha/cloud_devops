@@ -83,7 +83,7 @@ function AppContent() {
               onClick={() => setCurrentPage("about")}
               className={`transition-all hover:text-primary relative group ${currentPage === "about" ? "text-primary text-glow-orange" : "text-text/80"}`}
             >
-              ABOUT
+              ABOUT this is the trial
             </button>
           </div>
         </div>
