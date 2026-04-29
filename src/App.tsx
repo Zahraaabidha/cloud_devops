@@ -180,13 +180,13 @@ function AppContent() {
               onClick={() => setCurrentPage("simulator")}
               className={`transition-all hover:text-primary relative group ${currentPage === "simulator" ? "text-primary text-glow-orange" : "text-text/80"}`}
             >
-              SIMULATOR
+              SIMULATORS
             </button>
             <button
               onClick={() => setCurrentPage("about")}
               className={`transition-all hover:text-primary relative group ${currentPage === "about" ? "text-primary text-glow-orange" : "text-text/80"}`}
             >
-              ABOUT
+              ABOUTTTTTTTTTTTTTT
             </button>
           </div>
         </div>
